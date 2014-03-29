@@ -1,0 +1,24 @@
+{
+  "name": "ng-bs-daterangepicker",
+  "version": "0.0.3",
+  "main": "./src/ng-bs-daterangepicker.js",
+  "dependencies": {
+    "angular": ">= 1.0.7",
+    "bootstrap-daterangepicker": "*",
+    "bootstrap": "~3.0.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">= 1.0.7"
+  },
+  "homepage": "https://github.com/luisfarzati/ng-bs-daterangepicker",
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.3",
+    "commit": "6f6375699a80ea693fe9cd88d0db3e220b26fe5d"
+  },
+  "_source": "git://github.com/luisfarzati/ng-bs-daterangepicker.git",
+  "_target": "~0.0.3",
+  "_originalSource": "ng-bs-daterangepicker",
+  "_direct": true
+}
