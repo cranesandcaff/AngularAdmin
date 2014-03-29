@@ -1,6 +1,4 @@
 'use strict';
-//A Reminder -- You were tired when coding this part up, if something isn't working
-//Check that it's included both on page and on this. It'll probably throw a missing error, but you'll be confused at first anyway
 angular
   .module('angularAdminApp', [
     'ngCookies',
@@ -14,11 +12,11 @@ angular
     'angularFileUpload'
   ])
   .config(function ($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise("/");
+    $urlRouterProvider.otherwise("/dashboard");
     $stateProvider
-      .state('home', {
-        url: '/',
-        templateUrl: 'views/main.html'
+      .state('dashboard', {
+        url: '/dashboard',
+        templateUrl: 'views/dashboard.html'
       })
       
   });
