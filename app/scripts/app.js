@@ -13,10 +13,12 @@ angular
     'colorpicker.module',
     'angularFileUpload'
   ])
-  .config(function ($stateProvider,$urlRouterProvider) {
+  .config(function ($stateProvider, $urlRouterProvider) {
+    $urlRouterProvider.otherwise("/");
     $stateProvider
       .state('home', {
-        url: "/",
-        templateUrl: "views/main.html"
+        url: '/',
+        templateUrl: 'views/main.html'
       })
+      
   });
